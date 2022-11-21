@@ -1,0 +1,13 @@
+Crawling images and text from website
+
+To crawl images:
+1.	Firstly, you import all of the vital modules, as cited earlier.
+2.	Next, you have to specify the deal with of the website from which we need to down load all of the photos.
+3.	You can then ship a GET request to the desired URL, asking for resources.
+4.	Once that is done, you could use BeautifulSoup to enforce net scraping. This works with the parser and extracts the HTML/XML of the URL. Further, pull out all of the photograph tags from the Html report.
+5.	Once you get the photograph tags, get out the supply characteristic of all of the photos present, which specifies the URL of the photograph supply. You have to then iterate thru a lot of these supply URLs, and additionally affirm their formats.
+6.	Finally, you could write the photograph report into the cutting-edge directory, thereby finishing the down load.
+To Crawl Text:
+
+1.	To Crawl text I would like use urllib2 module
+2.	We use urlretrieve method to save all text content of a  website 
